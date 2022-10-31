@@ -7,8 +7,8 @@ app.use(express.json());
 app.use(router);
 
 app.get("/", (req, res) => res.send("Hello Express"));
-app.get("/test", (req, res) => res.send("Hello testttt"));
+app.get("/test", (req, res) => res.send("Hello test"));
 
 app.listen(port, () =>
-	console.log(`Example app listening at http://localhost:${port}`)
+  console.log(`Example app listening at http://localhost:${port}`)
 );
